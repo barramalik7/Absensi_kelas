@@ -1,53 +1,52 @@
 package models;
- 
-import java.util.*;
-import javax.persistence.*;
- 
-import play.db.jpa.*;
+
+import java.util.Date;
+import javax.persistence.Entity;
+import play.db.jpa.Model;
 
 @Entity
-public class Absensi extends Model{
+public class Absensi extends Model {
 
-	public date waktu;
-	public string semester;
-	public string form;
+    public Date waktu;
+    public String semester;
+    public String form;
 
-	public date getWaktu() {
-		return this.waktu;
-	}
+    public Date getWaktu() {
+        return this.waktu;
+    }
 
-	/**
-	 * 
-	 * @param waktu
-	 */
-	public void setWaktu(date waktu) {
-		this.waktu = waktu;
-	}
+    /**
+     * 
+     * @param waktu
+     */
+    public void setWaktu(Date waktu) {
+        this.waktu = waktu;
+    }
 
-	public string getSemester() {
-		return this.semester;
-	}
+    public String getSemester() {
+        return this.semester;
+    }
 
-	/**
-	 * 
-	 * @param semester
-	 */
-	public void setSemester(string semester) {
-		this.semester = semester;
-	}
+    /**
+     * 
+     * @param semester
+     */
+    public void setSemester(String semester) {
+        this.semester = semester;
+    }
 
-	public string getForm05() {
-		// TODO - implement Absensi.getForm05
-		throw new UnsupportedOperationException();
-	}
+    public String getForm05() {
+        // TODO - implement Absensi.getForm05
+        throw new UnsupportedOperationException();
+    }
 
-	/**
-	 * 
-	 * @param form05
-	 */
-	public void setForm05(string form05) {
-		// TODO - implement Absensi.setForm05
-		throw new UnsupportedOperationException();
-	}
+    /**
+     * 
+     * @param form05
+     */
+    public void setForm05(String form05) {
+        // TODO - implement Absensi.setForm05
+        throw new UnsupportedOperationException();
+    }
 
 }

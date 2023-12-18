@@ -1,38 +1,38 @@
 package models;
- 
+
 import java.util.*;
 import javax.persistence.*;
- 
+
 import play.db.jpa.*;
 
 @Entity
-public class Jadwal extends Model{
+public class Jadwal extends Model {
 
-	public string hari;
-	public string jam;
+    public String hari;
+    public String jam;
 
-	public string getHari() {
-		return this.hari;
-	}
+    public String getHari() {
+        return this.hari;
+    }
 
-	/**
-	 * 
-	 * @param hari
-	 */
-	public void setHari(string hari) {
-		this.hari = hari;
-	}
+    /**
+     * 
+     * @param hari
+     */
+    public void setHari(String hari) {
+        this.hari = hari;
+    }
 
-	public string getJam() {
-		return this.jam;
-	}
+    public String getJam() {
+        return this.jam;
+    }
 
-	/**
-	 * 
-	 * @param jam
-	 */
-	public void setJam(string jam) {
-		this.jam = jam;
-	}
+    /**
+     * 
+     * @param jam
+     */
+    public void setJam(String jam) {
+        this.jam = jam;
+    }
 
 }

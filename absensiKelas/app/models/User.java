@@ -1,38 +1,38 @@
 package models;
- 
+
 import java.util.*;
 import javax.persistence.*;
- 
+
 import play.db.jpa.*;
- 
+
 @Entity
-public class User extends Model{
+public class User extends Model {
 
-	public string username;
-	public string password;
+    public String username;
+    public String password;
 
-	public string getUsername() {
-		return this.username;
-	}
+    public String getUsername() {
+        return this.username;
+    }
 
-	/**
-	 * 
-	 * @param username
-	 */
-	public void setUsername(string username) {
-		this.username = username;
-	}
+    /**
+     * 
+     * @param username
+     */
+    public void setUsername(String username) {
+        this.username = username;
+    }
 
-	public string getPassword() {
-		return this.password;
-	}
+    public String getPassword() {
+        return this.password;
+    }
 
-	/**
-	 * 
-	 * @param password
-	 */
-	public void setPassword(string password) {
-		this.password = password;
-	}
+    /**
+     * 
+     * @param password
+     */
+    public void setPassword(String password) {
+        this.password = password;
+    }
 
 }
