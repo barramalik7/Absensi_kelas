@@ -4,10 +4,10 @@ import java.util.*;
 import javax.persistence.*;
  
 import play.db.jpa.*;
-public class Mahasiswa extends User {
+public class Mahasiswa extends Model {
 
-	private string nama;
-	private string nim;
+	public string nama;
+	public string nim;
 
 	public string getNama() {
 		return this.nama;

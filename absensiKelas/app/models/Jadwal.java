@@ -8,8 +8,8 @@ import play.db.jpa.*;
 @Entity
 public class Jadwal extends Model{
 
-	private string hari;
-	private string jam;
+	public string hari;
+	public string jam;
 
 	public string getHari() {
 		return this.hari;

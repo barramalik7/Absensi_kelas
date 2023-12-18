@@ -8,7 +8,7 @@ import play.db.jpa.*;
 @Entity
 public class Mata_Kuliah extends Model{
 
-	private string mata_kuliah;
+	public string mata_kuliah;
 
 	public string getMata_kuliah() {
 		return this.mata_kuliah;

@@ -8,9 +8,9 @@ import play.db.jpa.*;
 @Entity
 public class Absensi extends Model{
 
-	private date waktu;
-	private string semester;
-	private string form;
+	public date waktu;
+	public string semester;
+	public string form;
 
 	public date getWaktu() {
 		return this.waktu;

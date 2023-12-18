@@ -6,10 +6,10 @@ import javax.persistence.*;
 import play.db.jpa.*;
 
 @Entity
-public class Dosen extends User {
+public class Dosen extends Model{
 
-	private string nama_dosen;
-	private string nip;
+	public string nama_dosen;
+	public string nip;
 
 	public string getNama_dosen() {
 		return this.nama_dosen;

@@ -8,8 +8,8 @@ import play.db.jpa.*;
 @Entity
 public class User extends Model{
 
-	private string username;
-	private string password;
+	public string username;
+	public string password;
 
 	public string getUsername() {
 		return this.username;
