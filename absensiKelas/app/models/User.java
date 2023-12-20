@@ -12,6 +12,8 @@ public class User extends Model {
     @Email
     public String email;
     public String password;
+    public String fullname;
+    public boolean isAdmin;
 
     public String getUsername() {
         return this.username;

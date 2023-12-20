@@ -10,14 +10,12 @@
     </head>
     <body>
         #{doLayout /}
-        
-        <script src="@{'/public/javascripts/jquery-1.6.4.min.js'}" type="text/javascript" charset="${_response_encoding}"></script>
-        #{get 'moreScripts' /}
         <ul id="tools">
             <li>
                 <a href="@{Admin.index()}">Log in to write something</a>
             </li>
         </ul>
-    
+        <script src="@{'/public/javascripts/jquery-1.6.4.min.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+        #{get 'moreScripts' /}
     </body>
 </html>
